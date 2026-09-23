@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Node / JS
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+dist/
+build/
+coverage/
+.next/
+.expo/
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / local
+.vscode/
+.idea/
+*.log
+tmp/
+temp/
